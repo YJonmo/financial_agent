@@ -152,7 +152,7 @@ All four were run on the **same 25-conversation dev sample (seed=42, 86 turns)**
 3. **ReAct agent**: was significantly slower than CoT and Direct agents. It also scored a lower accuracy than Direct agent. than 
 4. **Planner agent**: The Planner agent achieved similar accuracy to the CoT agent albeit being more than twice as long. 
 
-#### Impact of few shop prompting in performance
+#### Impact of few shot prompting in performance
 It appeared that adding a few examples to the system prompt for the agents led to mixed results. For example, CoT and Planner agents had improvements, while Direct agent accuracy dropped. This also could indicate that GPT 4.1 mini is more than capable of handling questions shown here, and adding examples in the prompt may disrupt its ability to reason on the questions.
 
 ### Checking on a free model (Groq)
