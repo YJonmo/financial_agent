@@ -1,6 +1,8 @@
-# The Objective
-Building a prototype using a large language model (LLM) agent that answers conversational questions based on ConvFinQA.
+# Benchmarking LLM Agent Architectures for Financial Reasoning
 
+An experimental benchmarking framework for evaluating LLM agent architectures and prompting strategies on multi-hop financial question answering using ConvFinQA.
+
+The benchmark compares **Direct prompting, Chain-of-Thought (CoT), ReAct, and Plan-and-Execute** approaches, with and without few-shot prompting, using answer accuracy and execution time as evaluation metrics. The goal is to investigate whether more complex agent architectures and prompting techniques improve performance over simpler approaches on financial reasoning tasks.
 
 ## Installations
 ### Prerequisites
